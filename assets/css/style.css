@@ -212,6 +212,18 @@ button {
         border-bottom: 2px solid lightgray;
         width: 100%;
     }
+/* why won't this box adjust? */
+    .newContainer {
+        width: 200px;
+        height: 750px;
+        border: 1px solid lightgray;
+        background-color: white;
+        /* position: relative; */
+        margin-top: 20px;
+        /* float: left; */
+        margin-left: 60px;
+        padding: 40px;
+    }
 
     /* h1 {
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -392,4 +404,9 @@ button {
     bottom: 30px;
     left: 60px;
     }
+
+    .newContainer {
+        height: 1200px;
+        width: 64%;
+        margin-left: 20px;
 }
